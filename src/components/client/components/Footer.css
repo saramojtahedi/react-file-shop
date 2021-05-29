@@ -1,0 +1,25 @@
+.footer {
+    background-color: #bcbcbc;
+    padding: 0.5rem 0;
+}
+
+.footer p {
+    line-height: 2.5;
+}
+
+.footer a {
+    font-weight: bold;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+
+.footer a:hover {
+    font-weight: bold;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}

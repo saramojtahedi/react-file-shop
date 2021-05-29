@@ -1,0 +1,20 @@
+label {
+	color: #333;
+}
+
+.bottom35 {
+	margin-bottom: 35px !important;
+}
+
+.form-group {
+	display: flex;
+	align-items: center;
+}
+
+.form-check {
+	display: flex;
+}
+
+.form-check-label {
+	margin-right: 10px;
+}

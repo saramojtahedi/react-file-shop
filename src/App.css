@@ -1,0 +1,285 @@
+@import url("./styles/vazir.css");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'primary-font', 'segoe ui', tahoma;
+	font-size: 0.875rem;
+	background-color: #FFFFFF;
+	color: #000;
+	position: relative;
+	overflow: hidden;
+	direction: rtl;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+	font-size: 16px;
+	overflow-x: hidden;
+}
+
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a,
+a:hover,
+a:focus {
+	outline: none;
+	text-decoration: none;
+	color: inherit;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	line-height: 1.75;
+	font-weight: bold;
+}
+
+h1,
+.h1 {
+	font-size: 4.063em;
+}
+
+h2,
+.h2 {
+	font-size: 3rem;
+}
+
+h3,
+.h3 {
+	font-size: 1.5rem;
+}
+
+h4,
+.h4 {
+	font-size: 1.25rem;
+}
+
+h5,
+.h5 {
+	font-size: 1.125rem;
+}
+
+h6,
+.h6 {
+	font-size: 1rem;
+}
+
+p {
+	font-size: 0.9375rem;
+	font-weight: 300;
+	line-height: 2;
+}
+
+p.title {
+	font-size: 1rem;
+}
+
+.container {
+	width: 1170px;
+	max-width: 100%;
+}
+
+.container,
+.container-fluid {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+/* Helper Classes & Shorcodes */
+
+.padding {
+	padding: 7.5rem 0;
+}
+
+.padding_top {
+	padding-top: 7.5rem;
+}
+
+.padding_bottom {
+	padding-bottom: 7.5rem;
+}
+
+.padding_half {
+	padding: 3.75rem 0;
+}
+
+.padding_bottom_half {
+	padding-bottom: 3.75rem;
+}
+
+.padding_top_half {
+	padding-top: 3.75rem;
+}
+
+.p-0 {
+	padding: 0 !important;
+}
+
+.margin_bottom {
+	margin-bottom: 7.5rem;
+}
+
+.margin_top {
+	margin-top: 7.5rem;
+}
+
+.heading_space {
+	margin-bottom: 3.75rem;
+}
+
+.bottom5 {
+	margin-bottom: 5px;
+}
+
+.bottom10 {
+	margin-bottom: 10px;
+}
+
+.top10 {
+	margin-top: 10px;
+}
+
+.bottom15 {
+	margin-bottom: 15px;
+}
+
+.top15 {
+	margin-top: 15px;
+}
+
+.top20 {
+	margin-top: 20px;
+}
+
+.bottom20 {
+	margin-bottom: 20px;
+}
+
+.bottom25 {
+	margin-bottom: 25px;
+}
+
+.top25 {
+	margin-top: 25px;
+}
+
+.bottom30 {
+	margin-bottom: 30px;
+}
+
+.top30 {
+	margin-top: 30px;
+}
+
+.bottom35 {
+	margin-bottom: 35px;
+}
+
+.top40 {
+	margin-top: 40px;
+}
+
+.bottom40 {
+	margin-bottom: 40px;
+}
+
+.top50 {
+	margin-top: 50px;
+}
+
+.bottom50 {
+	margin-bottom: 50px;
+}
+
+.top60 {
+	margin-top: 60px;
+}
+
+.bottom60 {
+	margin-bottom: 60px;
+}
+
+.top80 {
+	margin-top: 80px;
+}
+
+.bottom80 {
+	margin-bottom: 80px;
+}
+
+.bottom45 {
+	margin-bottom: 45px;
+}
+
+.bottom0 {
+	margin-bottom: 0;
+}
+
+.top120 {
+	margin-top: 120px;
+}
+
+.top150 {
+	margin-top: 150px;
+}
+
+.bottom150 {
+	margin-bottom: 150px;
+}
+
+.nomargin {
+	margin: 0;
+}
+
+.bglight {
+	background: #f5f5f5;
+}
+
+.bgdark {
+	background: red !important;
+}
+
+.bgdefault {
+	background: #515A5F;
+}
+
+.whitecolor {
+	color: #ffffff;
+}
+
+.darkcolor {
+	color: #515A5F;
+}
+
+.colorblack {
+	color: #232323;
+}
+
+.Toastify__toast-body {
+    margin: auto 0;
+    text-align: center !important;
+    flex: 1 1 auto;
+    direction : rtl;
+	font-family: 'primary-font' !important;
+}
